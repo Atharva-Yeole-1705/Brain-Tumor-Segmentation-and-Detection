@@ -78,9 +78,7 @@ For every connected component, the pipeline calculates:
 - **Bounding-box area:** `w × h`.
 - **Density:**
 
-\[
-\text{Density} = \frac{\text{Component Area}}{\text{Bounding-box Area}}
-\]
+Density = Component Area/ Bounding-box Area
 
 Density indicates how much of a component's bounding rectangle is occupied by foreground pixels.
 
@@ -102,9 +100,7 @@ We compare the predicted mask with the reference output mask supplied with the M
 
 The Dice Score measures the overlap between the predicted mask and the reference mask:
 
-\[
-\text{Dice} = \frac{2|P \cap G|}{|P| + |G|}
-\]
+Dice = {2|P \cap G|}{|P| + |G|}
 
 Where:
 
