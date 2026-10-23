@@ -47,9 +47,8 @@ Evaluation and Visualization
 
 The input image is converted to a single intensity channel using the weighted grayscale formula:
 
-\[
-\text{Gray} = 0.298R + 0.587G + 0.114B
-\]
+
+Gray = 0.298R + 0.587G + 0.114B
 
 For images that are already grayscale, a color-to-grayscale conversion is not necessary.
 
