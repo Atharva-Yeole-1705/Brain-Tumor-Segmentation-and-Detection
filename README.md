@@ -123,21 +123,6 @@ Other useful metrics include **Intersection over Union (IoU), precision, recall,
 
 The project presentation reports **79% correct detection results across 100 MRI input samples**, compared with their supplied output masks. This figure should be interpreted according to the detection criterion implemented in the project; it is not a Dice Score unless calculated explicitly as one.
 
-## 🗂️ Dataset Organization
-
-The notebook expects MRI images and their reference masks to be available in the same working directory—for example, `/content` in Google Colab. Each reference mask must be paired with its corresponding image by filename.
-
-Example naming pattern:
-
-```text
-TCGA_CS_4941_19960909_10.tif
-TCGA_CS_4941_19960909_10_mask.tif
-```
-
-The file ending in `_mask.tif` is the reference mask for its corresponding MRI image. Ensure that the filenames and extensions match the pairing logic in the notebook.
-
-> Add the dataset name, source URL, license, and citation here if they are known and permitted to share.
-
 ## 🚀 Getting Started
 
 ### Option A — Google Colab
